@@ -4,7 +4,7 @@ import { FaInstagram, FaWhatsapp } from "react-icons/fa";
 export default function Footer() {
 return ( <footer className="bg-[#071632] text-white border-t border-white/10"> <div className="max-w-7xl mx-auto px-6 py-16">
 
-```
+
     <div className="grid md:grid-cols-4 gap-10">
 
       {/* Brand */}
