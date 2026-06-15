@@ -8,78 +8,102 @@ export const metadata: Metadata = {
 
 export default function DisclaimerPage() {
   return (
-    <main className="max-w-4xl mx-auto px-6 py-24">
+    <main>
 
-      <h1 className="text-5xl font-bold text-[#0B1F4D] mb-8">
-        Disclaimer
-      </h1>
+      {/* Hero */}
+      <section className="bg-[#0B1F4D] text-white py-24">
+        <div className="max-w-5xl mx-auto px-6">
 
-      <div className="space-y-8 text-gray-700 leading-relaxed">
+          <span className="text-[#D4A017] uppercase tracking-widest">
+            Legal Information
+          </span>
 
-        <section>
-          <h2 className="text-2xl font-semibold text-[#0B1F4D] mb-3">
-            Informational Purposes Only
-          </h2>
+          <h1 className="mt-6 text-5xl md:text-6xl font-bold">
+            Disclaimer
+          </h1>
 
-          <p>
-            The information provided on this website is for
-            informational purposes only and should not be
-            considered investment, financial, legal, or tax advice.
+          <p className="mt-6 text-xl text-gray-300 max-w-3xl">
+            Please review the following disclosures carefully before
+            relying on information provided by Velor Capital.
           </p>
-        </section>
 
-        <section>
-          <h2 className="text-2xl font-semibold text-[#0B1F4D] mb-3">
-            No Investment Offer
-          </h2>
+        </div>
+      </section>
 
-          <p>
-            Nothing contained on this website constitutes an offer,
-            solicitation, recommendation, or invitation to buy or
-            sell any investment product, security, or financial
-            instrument.
-          </p>
-        </section>
+      {/* Content */}
+      <section className="py-24 bg-[#F8FAFC]">
 
-        <section>
-          <h2 className="text-2xl font-semibold text-[#0B1F4D] mb-3">
-            Investment Risk
-          </h2>
+        <div className="max-w-5xl mx-auto px-6">
 
-          <p>
-            All investments involve risk, including the possible
-            loss of principal. Past performance is not indicative
-            of future results.
-          </p>
-        </section>
+          <div className="space-y-8">
 
-        <section>
-          <h2 className="text-2xl font-semibold text-[#0B1F4D] mb-3">
-            No Guarantees
-          </h2>
+            <div className="bg-white rounded-3xl border shadow-sm p-8">
+              <h2 className="text-2xl font-bold text-[#0B1F4D] mb-4">
+                Informational Purposes Only
+              </h2>
 
-          <p>
-            Velor Capital makes no representations or warranties
-            regarding the accuracy, completeness, or reliability of
-            information presented on this website.
-          </p>
-        </section>
+              <p className="text-gray-700 leading-relaxed">
+                The information provided on this website is for
+                informational purposes only and should not be
+                considered investment, financial, legal, or tax advice.
+              </p>
+            </div>
 
-        <section>
-          <h2 className="text-2xl font-semibold text-[#0B1F4D] mb-3">
-            External Links
-          </h2>
+            <div className="bg-white rounded-3xl border shadow-sm p-8">
+              <h2 className="text-2xl font-bold text-[#0B1F4D] mb-4">
+                No Investment Offer
+              </h2>
 
-          <p>
-            Links to third-party websites are provided for
-            convenience only. Velor Capital is not responsible for
-            the content, accuracy, or privacy practices of external
-            sites.
-          </p>
-        </section>
+              <p className="text-gray-700 leading-relaxed">
+                Nothing contained on this website constitutes an offer,
+                solicitation, recommendation, or invitation to buy or
+                sell any investment product, security, or financial
+                instrument.
+              </p>
+            </div>
 
-      </div>
+            <div className="bg-white rounded-3xl border shadow-sm p-8">
+              <h2 className="text-2xl font-bold text-[#0B1F4D] mb-4">
+                Investment Risk
+              </h2>
 
+              <p className="text-gray-700 leading-relaxed">
+                All investments involve risk, including the possible
+                loss of principal. Past performance is not indicative
+                of future results.
+              </p>
+            </div>
+
+            <div className="bg-white rounded-3xl border shadow-sm p-8">
+              <h2 className="text-2xl font-bold text-[#0B1F4D] mb-4">
+                No Guarantees
+              </h2>
+
+              <p className="text-gray-700 leading-relaxed">
+                Velor Capital makes no representations or warranties
+                regarding the accuracy, completeness, or reliability of
+                information presented on this website.
+              </p>
+            </div>
+
+            <div className="bg-white rounded-3xl border shadow-sm p-8">
+              <h2 className="text-2xl font-bold text-[#0B1F4D] mb-4">
+                External Links
+              </h2>
+
+              <p className="text-gray-700 leading-relaxed">
+                Links to third-party websites are provided for
+                convenience only. Velor Capital is not responsible for
+                the content, accuracy, or privacy practices of external
+                websites.
+              </p>
+            </div>
+
+          </div>
+
+        </div>
+
+      </section>
     </main>
   );
 }

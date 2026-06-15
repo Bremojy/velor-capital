@@ -12,19 +12,22 @@ export default function ResearchCard(props: ResearchCardProps) {
     <article
       className="
         bg-white
-        border
+        border border-[#D4AF37]/20
         rounded-2xl
         p-8
-        hover:shadow-xl
+        shadow-md
+        hover:shadow-2xl
+        hover:-translate-y-2
+        hover:border-[#D4AF37]
         transition-all
         duration-300
       "
     >
-      <span className="text-sm font-semibold text-[#D4A017]">
+      <span className="text-sm font-semibold uppercase tracking-wide text-[#D4AF37]">
         {props.category}
       </span>
 
-      <h3 className="mt-4 text-2xl font-bold text-[#0B1F4D]">
+      <h3 className="mt-4 text-2xl font-bold text-[#0B1F3A]">
         {props.title}
       </h3>
 
@@ -32,7 +35,7 @@ export default function ResearchCard(props: ResearchCardProps) {
         {props.summary}
       </p>
 
-      <div className="mt-6 text-sm text-gray-500">
+      <div className="mt-6 pt-4 border-t border-gray-100 text-sm text-gray-500">
         {props.date}
       </div>
     </article>

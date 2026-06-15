@@ -1,28 +1,42 @@
 import Hero from "@/components/Hero";
-import Services from "@/components/Services";
 import Stats from "@/components/Stats";
-import Philosophy from "@/components/Philosophy";
-import Research from "@/components/Research";
+import WhyVelor from "@/components/WhyVelor";
+import Services from "@/components/Services";
+import InvestmentProcess from "@/components/InvestmentProcess";
+import FeaturedResearch from "@/components/FeaturedResearch";
 import Credibility from "@/components/Creadibility";
+import CorePrinciples from "@/components/CorePrinciples";
 import Cta from "@/components/Cta";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Home",
+  title: "Velor Capital",
   description:
-    "Velor Capital invests in financial markets and strategic business opportunities with a focus on long-term value creation.",
+    "Research-driven investment firm focused on disciplined capital allocation, risk management, and long-term wealth creation.",
 };
 
 export default function Home() {
   return (
-    <>
+    <main className="bg-white">
+
       <Hero />
-      <Services />
+
       <Stats />
-      <Philosophy />
-      <Research />
+
+      <WhyVelor />
+
+      <Services />
+
+      <InvestmentProcess />
+
+      <FeaturedResearch />
+
       <Credibility />
+
+      <CorePrinciples />
+
       <Cta />
-    </>
+
+    </main>
   );
 }

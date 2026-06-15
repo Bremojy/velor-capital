@@ -10,14 +10,14 @@ export default function PrivacyPolicyPage() {
   return (
     <main className="max-w-4xl mx-auto px-6 py-24">
 
-      <h1 className="text-5xl font-bold text-[#0B1F4D] mb-8">
+      <h1 className="text-5xl font-bold text-white mb-8">
         Privacy Policy
       </h1>
 
       <div className="space-y-8 text-gray-700 leading-relaxed">
 
         <section>
-          <h2 className="text-2xl font-semibold text-[#0B1F4D] mb-3">
+          <h2 className="text-2xl font-semibold text-white mb-3">
             Introduction
           </h2>
 
@@ -29,7 +29,7 @@ export default function PrivacyPolicyPage() {
         </section>
 
         <section>
-          <h2 className="text-2xl font-semibold text-[#0B1F4D] mb-3">
+          <h2 className="text-2xl font-semibold text-white mb-3">
             Information We Collect
           </h2>
 
@@ -42,7 +42,7 @@ export default function PrivacyPolicyPage() {
         </section>
 
         <section>
-          <h2 className="text-2xl font-semibold text-[#0B1F4D] mb-3">
+          <h2 className="text-2xl font-semibold text-white mb-3">
             How We Use Information
           </h2>
 
@@ -59,7 +59,7 @@ export default function PrivacyPolicyPage() {
         </section>
 
         <section>
-          <h2 className="text-2xl font-semibold text-[#0B1F4D] mb-3">
+          <h2 className="text-2xl font-semibold text-white mb-3">
             Cookies & Analytics
           </h2>
 
@@ -71,7 +71,7 @@ export default function PrivacyPolicyPage() {
         </section>
 
         <section>
-          <h2 className="text-2xl font-semibold text-[#0B1F4D] mb-3">
+          <h2 className="text-2xl font-semibold text-white mb-3">
             Data Security
           </h2>
 
@@ -83,7 +83,7 @@ export default function PrivacyPolicyPage() {
         </section>
 
         <section>
-          <h2 className="text-2xl font-semibold text-[#0B1F4D] mb-3">
+          <h2 className="text-2xl font-semibold text-white mb-3">
             Third-Party Services
           </h2>
 
@@ -96,7 +96,7 @@ export default function PrivacyPolicyPage() {
         </section>
 
         <section>
-          <h2 className="text-2xl font-semibold text-[#0B1F4D] mb-3">
+          <h2 className="text-2xl font-semibold text-white mb-3">
             Your Rights
           </h2>
 
@@ -108,7 +108,7 @@ export default function PrivacyPolicyPage() {
         </section>
 
         <section>
-          <h2 className="text-2xl font-semibold text-[#0B1F4D] mb-3">
+          <h2 className="text-2xl font-semibold text-white mb-3">
             Contact Us
           </h2>
 

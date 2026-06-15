@@ -39,15 +39,17 @@ export default function StrategyPage() {
     <main>
 
       {/* Hero */}
+
       <section className="bg-[#0B1F4D] text-white py-24">
         <div className="max-w-6xl mx-auto px-6">
 
-          <span className="text-[#D4A017] uppercase tracking-wider">
+          <span className="text-[#D4A017] uppercase tracking-widest">
             Investment Strategy
           </span>
 
           <h1 className="text-5xl md:text-6xl font-bold mt-6">
             Research-Driven Investing.
+            <br />
             Disciplined Execution.
           </h1>
 
@@ -60,36 +62,83 @@ export default function StrategyPage() {
         </div>
       </section>
 
-      {/* Strategy Sections */}
-      <section className="py-24">
+      {/* Strategy Cards */}
+
+      <section className="py-24 bg-[#F8FAFC]">
+
         <div className="max-w-6xl mx-auto px-6">
 
-          <div className="space-y-10">
+          <div className="text-center mb-16">
+
+            <span className="text-[#D4A017] uppercase tracking-widest">
+              Our Framework
+            </span>
+
+            <h2 className="mt-4 text-5xl font-bold text-[#0B1F4D]">
+              How We Invest
+            </h2>
+
+          </div>
+
+          <div className="grid md:grid-cols-2 gap-8">
 
             {strategySections.map((section) => (
               <div
                 key={section.title}
                 className="
+                  bg-white
                   border
-                  rounded-2xl
+                  rounded-3xl
                   p-8
-                  hover:shadow-lg
-                  transition
+                  shadow-sm
+                  hover:shadow-xl
+                  hover:-translate-y-1
+                  transition duration-300
                 "
               >
+                <div className="w-14 h-14 rounded-2xl bg-[#D4A017]/10 flex items-center justify-center mb-6">
+                  <div className="w-4 h-4 rounded-full bg-[#D4A017]" />
+                </div>
+
                 <h2 className="text-2xl font-bold text-[#0B1F4D]">
                   {section.title}
                 </h2>
 
-                <p className="mt-4 text-gray-600 leading-relaxed">
+                <p className="mt-4 text-gray-700 leading-relaxed">
                   {section.description}
                 </p>
+
               </div>
             ))}
 
           </div>
 
         </div>
+
+      </section>
+
+      {/* Philosophy CTA */}
+
+      <section className="py-24 bg-[#071632] text-white">
+
+        <div className="max-w-4xl mx-auto px-6 text-center">
+
+          <span className="text-[#D4A017] uppercase tracking-widest">
+            Long-Term Thinking
+          </span>
+
+          <h2 className="mt-4 text-5xl font-bold">
+            Investing With Discipline
+          </h2>
+
+          <p className="mt-6 text-xl text-gray-300">
+            We seek sustainable growth through careful capital
+            allocation, research-driven decision making,
+            diversification, and prudent risk management.
+          </p>
+
+        </div>
+
       </section>
 
     </main>
